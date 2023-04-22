@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+ background-color: rgb(209, 210, 211);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.add{
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}
+
+input{
+  padding: 10px;
+  margin-left: 100px;;
+  margin-left: 42%;
+  margin-top: 20px;
+}
+
+.nowser{
+  padding: 10px;
+  text-align: center;
+  background-color: green;
+  margin-left: 600px;
+  margin-right: 600px;
+  color: white;
+  margin-bottom: 4px;
+  margin-top: 10px;
+  
+
+}
+
+.nowpre{
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  margin-left: 600px;
+  margin-right: 600px;
+  color: white;
+  
+}
+
+.transfer button{
+  text-align: center;
+}
+
+button{
+  text-align: center;
+}
+
+.transfer button{
+  text-align: center;
+}
+
+.bot button{
+  text-align: center;
+  margin-left: 50%;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
